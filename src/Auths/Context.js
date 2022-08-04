@@ -1,4 +1,5 @@
 import axios from "axios";
+// eslint-disable-next-line
 import React, { useState, useContext, useEffect } from "react";
 
 const table = {
@@ -8,8 +9,9 @@ const table = {
 };
 
 const API_ENDPOINT = "https://opentdb.com/api.php?";
-
+// eslint-disable-next-line
 const url = "";
+// eslint-disable-next-line
 const tempUrl =
   "https://opentdb.com/api.php?amount=10&category=29&difficulty=easy&type=multiple";
 
