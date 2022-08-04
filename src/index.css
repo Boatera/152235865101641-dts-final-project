@@ -148,6 +148,10 @@ p {
   .section {
     width: 95vw;
   }
+
+  main {
+    min-height: 85vh;
+  }
 }
 
 /*
@@ -157,10 +161,18 @@ Quiz
 */
 
 main {
-  min-height: 100vh;
+  min-height: 97vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 0.25rem 0;
 }
 
 .quiz,
